@@ -34,20 +34,20 @@ const state = {
                 0: <Comps.Tech tech={['HTML5', 'CSS3', 'SASS']}/>,
                 1: <Comps.Video vid='EPNhSlZmfKo' image='photosite'/>,
                 2: <Comps.Rationale text='A simple Photo Blog website, built to be responsive on both Mobile and Large screens.' />,
-                3: <Comps.Links/>
+                3: <Comps.Links repo='https://github.com/MichaelZC/photography_site_mockup' live='http://michaelzc.github.io/photography_site_mockup/'/>
             },
             2: {
                 component: <Comps.ProjectCover description='Week 4'  tech='Backbone MVC, Google Maps API, Dark Sky API' image='weather'></Comps.ProjectCover>,
                 0: <Comps.Tech tech={['Backbone.JS', 'Routing', 'Google Maps Tools', 'Dark Sky Weather API' ]}/>,
                 1: <Comps.Rationale text='A simple single-page web app for checking the weather. Store multiple locations with available emergency weather alerts.'/>,
                 2: <Comps.Video vid='ngB0rahrsds' image='weather'/>,
-                3: <Comps.Links/>
+                3: <Comps.Links repo='https://github.com/MichaelZC/weathertracker' live='http://michaelzc.github.io/weathertracker/' />
             },
             3: {
                 component: <Comps.ProjectCover description='Week 12' tech='React, Parse API, Google Places API, Material Design'  image='parting'></Comps.ProjectCover>,
                 0: <Comps.Tech tech={['React.JS', 'Parse.JS', 'Google Places', 'Material UI']}/>,
                 1: <Comps.Rationale text='A web app with a persisting database for use by wine professionals. Log Wine tastings and create Flash Cards for Study.'/>,
-                2: <Comps.Links/>,
+                2: <Comps.Links repo='https://github.com/MichaelZC/PartingGlass' live='http://michaelzc.github.io/PartingGlass/#login'/>,
                 3: <Comps.Video vid='ZpCNGDgHCqU' image='parting'/>
             }
         },
